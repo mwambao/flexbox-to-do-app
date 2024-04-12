@@ -1,0 +1,95 @@
+/* Universal Styles */
+body {
+    margin: 0px; /* Set margin to zero for body */
+    background-color: whitesmoke; /* Background color for the body */
+    font-family: 'Rock Salt', cursive; /* Font family for the body */
+    text-align: center; /* Center-align text within the body */
+  }
+  
+  .secondary-background {
+    background-color: snow; /* Background color for elements with class 'secondary-background' */
+  }
+  
+  .tagline {
+    font-family: 'Quicksand', sans-serif; /* Font family for elements with class 'tagline' */
+    color: lightslategrey; /* Text color for elements with class 'tagline' */
+    line-height: 125px; /* Set line height for better spacing */
+  }
+  
+  /* Header */
+  h1 {
+    margin: 0; /* Reset margin for h1 */
+    background-color: steelblue; /* Background color for h1 */
+    line-height: 100px; /* Set line height for better spacing */
+    color: khaki; /* Text color for h1 */
+  }
+  
+  h2 {
+    margin: 10px; /* Margin for h2 */
+  }
+  
+  /* App Container */
+  .container {
+    border: 2px solid snow; /* Border for the container */
+    display: flex; /* Use flexbox layout for container */
+  }
+  
+  /* To Do Section */
+  .week {
+    display: inline-flex; /* Use inline-flex for week display */
+    flex-grow: 3; /* Allow week section to grow within container */
+    flex-direction: column; /* Arrange items in a column */
+  }
+  
+  .row {
+    min-height: 200px; /* Minimum height for each row */
+    display: flex; /* Use flexbox layout for rows */
+    flex-wrap: wrap; /* Allow wrapping of items within row */
+    justify-content: space-around; /* Distribute items evenly within row */
+    align-items: center; /* Center-align items vertically */
+  }
+  
+  .square {
+    width: 125px; /* Set width for square */
+    height: 125px; /* Set height for square */
+    padding: 10px; /* Padding for better spacing */
+    display: flex; /* Use flexbox layout for squares */
+    justify-content: center; /* Center-align content horizontally */
+    align-items: center; /* Center-align content vertically */
+  }
+  
+  .day.square {
+    background-color: steelblue; /* Background color for day squares */
+    border: 1px solid white; /* Border for day squares */
+  }
+  
+  .task.square {
+    background-color: khaki; /* Background color for task squares */
+    border: 1px solid white; /* Border for task squares */
+  }
+  
+  .task p {
+    font-family: 'Quicksand', sans-serif; /* Font family for task paragraphs */
+    font-weight: 700; /* Set font weight for task paragraphs */
+    font-size: 12px; /* Set font size for task paragraphs */
+  }
+  
+  /* Reminders */
+  .reminders {
+    background-color: khaki; /* Background color for reminders section */
+    display: inline-flex; /* Use inline-flex for reminders display */
+    flex-grow: 2; /* Allow reminders section to grow within container */
+  }
+  
+  .reminders h3 {
+    width: 100%; /* Set width for h3 within reminders */
+    margin: 10px; /* Margin for h3 within reminders */
+    color: black; /* Text color for h3 within reminders */
+    line-height: 90px; /* Set line height for better spacing */
+    font-size: 24px; /* Set font size for h3 within reminders */
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 24px; /* Set font size for footer */
+  }
